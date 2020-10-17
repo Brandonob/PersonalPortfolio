@@ -12,7 +12,7 @@ const Home = () => {
             <div className="imageHeader" 
                 style={{ backgroundImage:`url(${emptygallery})`,
                         border: "0",
-                        height: "90vh",
+                        height: "91vh",
                         margin: "0",
                         display: "flex",
                         padding: "0",
@@ -30,8 +30,6 @@ const Home = () => {
                                                         position: "absolute",
                                                         right: "5%",
                                                         top: "7%"    }}/>
-
-                
 
             </div>
         </div>
