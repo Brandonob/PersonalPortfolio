@@ -45,9 +45,22 @@ table {
 /* END OF CSS RESET */
 
 .navbar {
-    height: 65px;
+	height: 72px;
+	background-color: white;
+	position: sticky;
 }
-.navbar > h1 {
+section > h1 {
     margin-right: 10px;
-    font-size: x-large;
+	font-size: x-large;
+	display: flex;
+	align-items: center;
+	/* flex-direction: column;	 */
+	/* align-content: center; */
+}
+.navbar > section {
+	display: flex;
+	/* align-content: center; */
+	position: absolute;
+	right: 0%;
+	/* align-items: center; */
 }
