@@ -5,24 +5,15 @@ import brandonImg from '../../images/brandonImg.png'
 import emptygallery from '../../images/emptygallery.jpg'
 import avatarframe from '../../images/avatarframe.png'
 import Skills from '../Skills/Skills'
-// import avatarframe2 from '../../images/avatarframe2.png'
-// import csslogo from '../../images/csslogo.png'
-// import javascriptlogo from '../../images/javascriptlogo.png'
-// import htmllogo from '../../images/htmllogo.png'
-// import reactlogo from '../../images/reactlogo.png'
-// import reduxlogo from '../../images/reduxlogo.png'
-// import firebaseimg from '../../images/firebaseimg.png'
-// import nodejslogo from '../../images/nodejslogo.png'
-// import postgresqllogo from '../../images/postgresqllogo.png'
-// import gitlogo from '../../images/gitlogo.png'
-
+import Blob from '../Springs/Blob'
 
 const Home = () => {
     return (
         <div className="body" >
             
             <div className="imageHeader" 
-                style={{ backgroundImage:`url(${emptygallery})`,
+                style={{ 
+                        backgroundImage:`url(${emptygallery})`,
                         overflow: "visible",
                         border: "0",
                         height: "92vh",
@@ -36,6 +27,19 @@ const Home = () => {
                         backgroundSize: "cover",
                         backgroundPosition: "center center",
                          }}>
+                {/* <div className="blob1">
+                    <Blob/>
+                </div> */}
+                
+                {/* <div className="blob3">
+                    <Blob/>
+                </div>
+                <div className="blob4">
+                    <Blob/>
+                </div> */}
+
+
+                
                 <img alt="" src={brandonImg} style={{ height: "43vh",
                                                         position: "absolute",
                                                         right: "9%",
@@ -46,7 +50,6 @@ const Home = () => {
                                                         top: "7%"    }}/>
 
             <div className="main" >
-                Skills
                 <Skills/>
             </div>
 

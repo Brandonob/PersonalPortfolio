@@ -55,8 +55,33 @@ table {
     width: 150vh;
     margin: auto;
     position: relative;
-    top: 85%;
-    
-    
+    top: 55%;
 }
+.blob1 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+/* .blob2 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+} */
+/* .blob3 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 25%;
+    height: 100%;
+}
+.blob4 {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 25%;
+    height: 100%;
+} */
 
