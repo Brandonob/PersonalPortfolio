@@ -5,6 +5,9 @@ import brandonImg from '../../images/brandonImg.png'
 import emptygallery from '../../images/emptygallery.jpg'
 import avatarframe from '../../images/avatarframe.png'
 import Skills from '../Skills/Skills'
+import LiveProjects from '../LiveProjects/LiveProjects'
+import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
 import Blob from '../Springs/Blob'
 
 const Home = () => {
@@ -50,7 +53,10 @@ const Home = () => {
                                                         top: "7%"    }}/>
 
             <div className="main" >
-                <Skills/>
+                <Skills />
+                <LiveProjects />
+                <Projects />
+                <Contact />
             </div>
 
             </div>

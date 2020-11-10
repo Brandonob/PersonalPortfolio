@@ -1,0 +1,19 @@
+.projectsMain {
+    
+    
+}
+/* .projectsContainer {
+    max-width: 100%;
+} */
+.projectsContainer > div {
+    width: 300px;
+    margin-left: 100px;
+    /* display:flex;
+    flex-direction: column; */
+}
+.projectsContainer {
+    display: flex;
+    max-width: 100%;
+    flex-direction: inherit;
+    
+}

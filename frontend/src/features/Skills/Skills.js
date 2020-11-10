@@ -10,65 +10,62 @@ import nodejslogo from '../../images/nodejslogo.png'
 import postgresqllogo from '../../images/postgresqllogo.png'
 import gitlogo from '../../images/gitlogo.png'
 import './Skills.css'
-import { Typography } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
 
 
 const Skills = () => {
     return (
-        
-        <div>
-            {/* <h1>Skills</h1> */}
-            <h3 > Skills </h3>
-        
-        {/* skills images */}
-        {/* <img alt="" src={avatarframe2} style={{ height: "60vh",
-                                                    marginTop:"50px",
-                                                    marginLeft: "50px" }}/> */}
+        <div className="skillsMain">
             <div className="skillImgsContainer">
-                <div className="ImgContainer1" >
-                    <section>
-                        <img id="csslogo" alt="" src={csslogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                    <section>
-                        <img id="htmllogo" alt="" src={htmllogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                    <section>
-                        <img id="javascriptlogo" alt="" src={javascriptlogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
+            <Typography > Skills </Typography>
+                    <div className="ImgContainer1" >
+                        <section>
+                            <img id="csslogo" alt="" src={csslogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                        <section>
+                            <img id="htmllogo" alt="" src={htmllogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                        <section>
+                            <img id="javascriptlogo" alt="" src={javascriptlogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                    </div>
+                    <div className="ImgContainer2" >
+                        <section>
+                            <img id="reactlogo" alt="" src={reactlogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                        <section>
+                            <img id="reduxlogo" alt="" src={reduxlogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                        <section>
+                            <img id="nodejslogo" alt="" src={nodejslogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                    </div>
+                    <div className="ImgContainer3" >
+                        <section>
+                            <img id="firebaseimg" alt="" src={firebaseimg} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                        <section>
+                            <img id="postgresqllogo" alt="" src={postgresqllogo} style={{ height: "10vh" }} />
+                            <h6> React </h6>
+                        </section>
+                        <section>
+                            <img id="gitlogo" alt="" src={gitlogo} style={{ height: "9vh" }} />
+                            <h6> React </h6>
+                        </section>
+                    </div>
                 </div>
-                <div className="ImgContainer2" >
-                    <section>
-                        <img id="reactlogo" alt="" src={reactlogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                    <section>
-                        <img id="reduxlogo" alt="" src={reduxlogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                    <section>
-                        <img id="nodejslogo" alt="" src={nodejslogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                </div>
-                <div className="ImgContainer3" >
-                    <section>
-                        <img id="firebaseimg" alt="" src={firebaseimg} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                    <section>
-                        <img id="postgresqllogo" alt="" src={postgresqllogo} style={{ height: "10vh" }} />
-                        <h6> React </h6>
-                    </section>
-                    <section>
-                        <img id="gitlogo" alt="" src={gitlogo} style={{ height: "9vh" }} />
-                        <h6> React </h6>
-                    </section>
-                </div>
-            </div>
+
         </div>
+        
+            
+       
     )
 }
 
