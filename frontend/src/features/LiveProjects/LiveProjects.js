@@ -8,7 +8,7 @@ const LiveProjects = () => {
     const projects = [{name: "Tinni", description: "", image: tinniImg, codeLink: "https://github.com/Brandonob/CODENAME-IDA" }]
     return (
         <div className="lpContainer">
-            <Typography > Live Projects </Typography>
+            <Typography variant="h1" > Live Projects </Typography>
 
             <div className="projectsContainer">
                 {projects.map(el => {

@@ -12,10 +12,10 @@ import { NavLink } from 'react-router-dom'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 300,
+    maxWidth: 500,
   },
   media: {
-    height: 150,
+    height: 200,
   },
 });
 
@@ -32,7 +32,7 @@ export default function MediaCard({ name, description, image, codeLink }) {
             title={name}
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography variant="h5" component="h2">
               {/* Tinni */}
               {name}
             </Typography>

@@ -11,7 +11,7 @@ const Projects = () => {
 
     return (
         <div className="projectsMain" >
-            <Typography > Projects </Typography>
+            <Typography variant="h1" > Projects </Typography>
 
            <div className="projectsContainer">
                 {projects.map(el => {

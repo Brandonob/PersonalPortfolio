@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 const Contact = () => {
     return (
         <div>
-            <Typography > Contact me! </Typography>
+            <Typography variant="h1" > Contact me! </Typography>
         </div>
     )
 }

@@ -11,53 +11,122 @@ import postgresqllogo from '../../images/postgresqllogo.png'
 import gitlogo from '../../images/gitlogo.png'
 import './Skills.css'
 import Typography from '@material-ui/core/Typography';
+import { useSpring, animated } from 'react-spring'
+
+const calc = (x, y) => [-(y - 80 / 2) / 20, (x - 80 / 2) / 20, 1.1]
+const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
 
 const Skills = () => {
+    const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
+
     return (
         <div className="skillsMain">
+            <Typography variant="h1" > Skills </Typography>
             <div className="skillImgsContainer">
-            <Typography > Skills </Typography>
                     <div className="ImgContainer1" >
                         <section>
-                            <img id="csslogo" alt="" src={csslogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                            <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${csslogo})`, }}
+                            />
+                            {/* <img id="csslogo" alt="" src={csslogo} style={{ height: "10vh" }} /> */}
+                            <Typography> CSS </Typography>
                         </section>
                         <section>
-                            <img id="htmllogo" alt="" src={htmllogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${htmllogo})`, }}
+                            />
+                            {/* <img id="htmllogo" alt="" src={htmllogo} style={{ height: "10vh" }} /> */}
+                            <Typography> HTML </Typography>
                         </section>
                         <section>
-                            <img id="javascriptlogo" alt="" src={javascriptlogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${javascriptlogo})`, }}
+                            />
+                            {/* <img id="javascriptlogo" alt="" src={javascriptlogo} style={{ height: "10vh" }} /> */}
+                            <Typography> JavaScript </Typography>
                         </section>
                     </div>
                     <div className="ImgContainer2" >
                         <section>
-                            <img id="reactlogo" alt="" src={reactlogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${reactlogo})`, }}
+                            />
+                            {/* <img id="reactlogo" alt="" src={reactlogo} style={{ height: "10vh" }} /> */}
+                            <Typography> React </Typography>
                         </section>
                         <section>
-                            <img id="reduxlogo" alt="" src={reduxlogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${reduxlogo})`, }}
+                            />
+                            {/* <img id="reduxlogo" alt="" src={reduxlogo} style={{ height: "10vh" }} /> */}
+                            <Typography> Redux </Typography>
                         </section>
                         <section>
-                            <img id="nodejslogo" alt="" src={nodejslogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${nodejslogo})`, }}
+                            />
+                            {/* <img id="nodejslogo" alt="" src={nodejslogo} style={{ height: "10vh" }} /> */}
+                            <Typography> Node.js </Typography>
                         </section>
                     </div>
                     <div className="ImgContainer3" >
                         <section>
-                            <img id="firebaseimg" alt="" src={firebaseimg} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${firebaseimg})`, }}
+                            />
+                            {/* <img id="firebaseimg" alt="" src={firebaseimg} style={{ height: "10vh" }} /> */}
+                            <Typography> Firebase </Typography>
                         </section>
                         <section>
-                            <img id="postgresqllogo" alt="" src={postgresqllogo} style={{ height: "10vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${postgresqllogo})`, }}
+                            />
+                            {/* <img id="postgresqllogo" alt="" src={postgresqllogo} style={{ height: "10vh" }} /> */}
+                            <Typography> PostgreSQL </Typography>
                         </section>
                         <section>
-                            <img id="gitlogo" alt="" src={gitlogo} style={{ height: "9vh" }} />
-                            <h6> React </h6>
+                        <animated.div
+                                class="card"
+                                onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
+                                onMouseLeave={() => set({ xys: [0, 0, 1] })}
+                                style={{ transform: props.xys.interpolate(trans), 
+                                        backgroundImage:`url(${gitlogo})`, }}
+                            />
+                            {/* <img id="gitlogo" alt="" src={gitlogo} style={{ height: "9vh" }} /> */}
+                            <Typography> Git </Typography>
                         </section>
                     </div>
                 </div>

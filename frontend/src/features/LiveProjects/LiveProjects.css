@@ -43,3 +43,9 @@ table {
 }
 
 /* END OF CSS RESET */
+.lpContainer {
+    border-bottom: 1px solid lightgray;
+    border-bottom-style: solid;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
