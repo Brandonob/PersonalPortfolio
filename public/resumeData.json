@@ -2,9 +2,9 @@
   "main": {
     "name":"Brandon Brown",
     "occupation":"Full Stack Web Developer",
-    "description":"I'm passionate about web design, music and gaming. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"I'm passionate about web design, music and gaming. I welcome teamwork and am open to collaborating with other developers on projects. Please feel free to contact me about any project collaborations or job opportunities",
     "image":"profilepic.jpg",
-    "bio":"I learned about coding through the college I attended and I've been intrigued ever since. After college, I was accepted into the Pursuit Fellowship program where I was able to sharpen my skills and build upon my knowledge of coding. ",
+    "bio":"I was introduced to coding through college and I've been intrigued ever since. I worked in retail as a Visual Merchandiser before being accepted into the Pursuit Fellowship program and becoming a coder. There I was able to work alongside like minded individuals whom shared one single goal, to secure their first job as a developer. I hope to combine my love for fashion, music, and coding to deliver a frictionless user experience.   ",
     "contactmessage":"Feel free to reach out to me for any opportunities!",
     "email": "Brandonb0206@gmail.com",
     "phone": "646-620-5446",
@@ -18,7 +18,7 @@
     "social":[
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/B_DotGotIt",
         "className":"fa fa-twitter"
       },
       {
@@ -86,7 +86,7 @@
         "title":"Flashbook",
         "category":"A remake of the well known social media website, Facebook. ",
         "image":"facebookImg.png",
-        "url":"https://github.com/Brandonob/Social-Media-App"
+        "url":"https://github.com/Brandonob/Flashbook"
       },
       {
         "title":"Soothe",

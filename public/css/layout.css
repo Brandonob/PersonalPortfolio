@@ -335,14 +335,14 @@ ul#nav li.current a { color: #11ABB0; }
    flex-wrap: wrap;
 }
 .skillsImgs > div {
-   margin-right: 30px;
-   margin-top: 50px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+   margin: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+};
 }
-/*
+/* 
 .git {
   	-moz-animation: git 2s ease;
   	-webkit-animation: git 2s ease;
