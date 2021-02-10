@@ -27,14 +27,83 @@ class Resume extends Component {
             <p>{work.description}</p>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
+      // var skills = this.props.data.skills.map(function(skills){
+      //   var className = 'bar-expand '+skills.name.toLowerCase();
+      //   return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      // })
     }
 
     return (
       <section id="resume">
+
+        <div className="row skill" style={{ paddingBottom: "50px",
+                                            borderBottom: "1px solid #E8E8E8",
+                                            marginBottom: "50px", }}>
+
+          <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+
+            <p>{skillmessage}
+            </p>
+
+            <div className="skillsImgs">
+              
+              <div>
+                <img alt="" src={htmlIcon} style={{width: "125px", height: "125px"}}/>
+                <h1>HTML</h1>
+              </div> 
+              <div>
+                <img alt="" src={cssIcon} style={{width: "125px", height: "125px"}}/>
+                <h1>CSS</h1>
+              </div>
+              <div>
+                <img alt="" src={javascriptIcon} style={{width: "125px", height: "125px"}}/>
+                <h1>Javascript</h1>
+              </div>
+              <div>
+                <img alt="" src={postgresqlIcon} style={{width: "125px", height: "125px"}}/>
+                <h1>PostgreSQL</h1>
+              </div>
+              <div>
+                <img alt="" src={nodejsIcon} style={{width: "140px", height: "140px"}}/>
+                <h1>Nodejs</h1>
+              </div>
+              <div>
+                <img alt="" src={gitIcon} style={{width: "120px", height: "120px"}}/>
+                <h1 style={{ marginTop: "15px" }}>Git</h1>
+              </div>
+              <div>
+                <img alt="" src={reactIcon} style={{width: "135px", height: "135px"}}/>
+                <h1>React</h1>
+              </div>
+              <div>
+                <img alt="" src={reduxIcon} style={{width: "110px", height: "110px"}}/>
+                <h1 style={{ marginTop: "19px" }}>Redux</h1>
+              </div>
+              <div>
+                <img alt="" src={npmIcon} style={{width: "125px", height: "125px"}}/>
+                <h1>NPM</h1>
+              </div>
+              <div>
+                <img alt="" src={firebaseIcon} style={{width: "125px", height: "125px"}}/>
+                <h1>Firebase</h1>
+              </div>
+              <div>
+                <img alt="" src={herokuIcon} style={{width: "110px", height: "110px"}}/>
+                <h1 style={{ marginTop: "10px" }}>Heroku</h1>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        
 
       <div className="row education">
          <div className="three columns header-col">
@@ -64,66 +133,7 @@ class Resume extends Component {
 
 
 
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="skillsImgs">
-				  <div>
-            <img alt="" src={htmlIcon} style={{width: "125px", height: "125px"}}/>
-            <h1>HTML</h1>
-          </div> 
-          <div>
-            <img alt="" src={cssIcon} style={{width: "125px", height: "125px"}}/>
-            <h1>CSS</h1>
-          </div>
-          <div>
-            <img alt="" src={javascriptIcon} style={{width: "125px", height: "125px"}}/>
-            <h1>Javascript</h1>
-          </div>
-          <div>
-            <img alt="" src={postgresqlIcon} style={{width: "125px", height: "125px"}}/>
-            <h1>PostgreSQL</h1>
-          </div>
-          <div>
-            <img alt="" src={nodejsIcon} style={{width: "140px", height: "140px"}}/>
-            <h1>Nodejs</h1>
-          </div>
-          <div>
-            <img alt="" src={gitIcon} style={{width: "120px", height: "120px"}}/>
-            <h1 style={{ marginTop: "15px" }}>Git</h1>
-          </div>
-          <div>
-            <img alt="" src={reactIcon} style={{width: "135px", height: "135px"}}/>
-            <h1>React</h1>
-          </div>
-          <div>
-            <img alt="" src={reduxIcon} style={{width: "110px", height: "110px"}}/>
-            <h1 style={{ marginTop: "19px" }}>Redux</h1>
-          </div>
-          <div>
-            <img alt="" src={npmIcon} style={{width: "125px", height: "125px"}}/>
-            <h1>NPM</h1>
-          </div>
-          <div>
-            <img alt="" src={firebaseIcon} style={{width: "125px", height: "125px"}}/>
-            <h1>Firebase</h1>
-          </div>
-          <div>
-            <img alt="" src={herokuIcon} style={{width: "110px", height: "110px"}}/>
-            <h1 style={{ marginTop: "10px" }}>Heroku</h1>
-          </div>
-
-				</div>
-			</div>
-      </div>
+      
    </section>
     );
   }

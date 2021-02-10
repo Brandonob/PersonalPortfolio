@@ -243,7 +243,6 @@ ul#nav li.current a { color: #11ABB0; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
    overflow: hidden;
 }
 
@@ -267,7 +266,6 @@ ul#nav li.current a { color: #11ABB0; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
-   margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
@@ -436,15 +434,16 @@ ul#nav li.current a { color: #11ABB0; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 96px;
    padding-bottom: 60px;
 }
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
+   margin-bottom: 60px;
    color: #95A3A3;
 }
 
@@ -507,10 +506,39 @@ ul#nav li.current a { color: #11ABB0; }
 	transition: opacity 0.3s ease-in-out;
 
    position: absolute;
-   top: 50%;
-   left: 50%;
+   top: 70%;
+   left: 25%;
    margin-left: -15px;
    margin-top: -15px;
+}
+.portfolio-item .item-wrap .link-icon2 {
+   display: block;
+   color: #fff;
+   height: 30px;
+   width: 30px;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+
+   opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+
+   -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+.link-icon:hover {
+   border-radius: 5px;
+   background-color: #11ABB0;
+}
+.link-icon2:hover {
+   border-radius: 5px;
+   background-color: #11ABB0;
+}
+#iconText {
+   color: white;
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
@@ -533,6 +561,11 @@ ul#nav li.current a { color: #11ABB0; }
 	filter:alpha(opacity=100);
 }
 .portfolio-item:hover .link-icon {
+   opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
+}
+.portfolio-item:hover .link-icon2 {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);

@@ -80,25 +80,29 @@
         "title":"Tinni",
         "category":"A website to seamlessly craft and save an itinerary",
         "image":"tinnilogo.png",
-        "url":"https://tinni.netlify.app/"
+        "liveUrl":"https://tinni.netlify.app/",
+        "ghUrl":"https://github.com/Brandonob/Tinni"
       },
       {
         "title":"Flashbook",
         "category":"A remake of the well known social media website, Facebook. ",
-        "image":"facebookImg.png",
-        "url":"https://github.com/Brandonob/Flashbook"
+        "image":"flashbookImg.png",
+        "liveUrl":"https://github.com/Brandonob/Flashbook",
+        "ghUrl":"https://github.com/Brandonob/Flashbook"
       },
       {
         "title":"Soothe",
         "category":"A website that displays the weather and an alarm feature, providing users a soother way to start their mornings.",
         "image":"logoSoothe.png",
-        "url":"https://github.com/Brandonob/Soothe-App"
+        "ghUrl":"https://github.com/Brandonob/Soothe-App"
+        
       },
       {
         "title":"Calculator App",
         "category":"A React based calculator app",
         "image":"calculator.jpg",
-        "url":"https://github.com/Brandonob/Calculator2"
+        "ghUrl":"https://github.com/Brandonob/Calculator2"
+        
       }
       
     ]
