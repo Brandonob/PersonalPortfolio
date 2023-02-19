@@ -4,7 +4,7 @@
     "occupation":"Full Stack Web Developer",
     "description":"I'm passionate about web design, music and gaming. I welcome teamwork and am open to collaborating with other developers on projects. Please feel free to contact me about any project collaborations or job opportunities",
     "image":"profilepic.jpg",
-    "bio":"I was introduced to coding through college and I've been intrigued ever since. I worked in retail as a Visual Merchandiser before being accepted into the Pursuit Fellowship program and becoming a coder. There I was able to work alongside like minded individuals whom shared one single goal, to secure their first job as a developer. I hope to combine my love for fashion, music, and coding to deliver a frictionless user experience.   ",
+    "bio":"I am an open minded and dedicated creative. While growing up I always enjoyed building and the obstacles that came with it, whether it was an art project or putting a desk together. Having this passion, I gravitated towards coding when I was accepted into college because it showed me a new way to build and be hands-on. After college, I searched for ways to stay active in and increase my knowledge of coding. I was accepted into the Pursuit Fellowship program where I experienced what it was like to build as a team. I am grateful to have worked alongside a diverse group of individuals whom shared many challenges and were able to learn from each other. I aspire to use my creativity alongside my great problem solving skills to deliver a frictionless user experience.",
     "contactmessage":"Feel free to reach out to me for any opportunities!",
     "email": "Brandonb0206@gmail.com",
     "phone": "646-620-5446",
@@ -16,11 +16,6 @@
     "website": "http://www.timbakerdev.com",
     "resumedownload":"https://docs.google.com/document/d/e/2PACX-1vTxDuFqpM4AWkJfjVb1lH5VSRjulo6WRod4hfb8hN1ryzvYhiCEeTgDB8X8-XjTTjFk0PTsJWFeupUR/pub",
     "social":[
-      {
-        "name":"twitter",
-        "url":"https://twitter.com/B_DotGotIt",
-        "className":"fa fa-twitter"
-      },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/brandonobrown/",
@@ -57,6 +52,12 @@
     ],
     "work":[
       {
+        "company":"View The Space",
+        "title":"Software Engineer",
+        "years":"June 2021 - February 2023",
+        "description":"Lead the integration of a new font interface into the marketplace application. Use Scrum framework to define solutions and drive progress as a team. Worked with product, design, engineer, and testing team members to design and develop robust. solutions to meet client requirements for functionality, scalability, and performance. Collaborate with product, design, and engineers on other teams within the organization to build features in a sprint."
+      },
+      {
         "company":"Amazon",
         "title":"Studio Assistant ",
         "years":"October 2019 - February 2020",
@@ -87,7 +88,7 @@
         "title":"Flashbook",
         "category":"A remake of the well known social media website, Facebook. ",
         "image":"flashbookImg.png",
-        "liveUrl":"https://github.com/Brandonob/Flashbook",
+        "liveUrl":"https://flashbook-app.netlify.app/",
         "ghUrl":"https://github.com/Brandonob/Flashbook"
       },
       {
