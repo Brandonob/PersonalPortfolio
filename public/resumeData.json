@@ -4,17 +4,17 @@
     "occupation": "Full Stack Web Developer",
     "description": "I'm passionate about web design, music and gaming. I welcome teamwork and am open to collaborating with other developers on projects. Please feel free to contact me about any project collaborations or job opportunities",
     "image": "profilepic.jpg",
-    "bio": "I am an open minded and dedicated creative. While growing up I always enjoyed building and the obstacles that came with it, whether it was an art project or putting a desk together. Having this passion, I gravitated towards coding when I was accepted into college because it showed me a new way to build and be hands-on. After college, I searched for ways to stay active in and increase my knowledge of coding. I was accepted into the Pursuit Fellowship program where I experienced what it was like to build as a team. I am grateful to have worked alongside a diverse group of individuals whom shared many challenges and were able to learn from each other. I aspire to use my creativity alongside my great problem solving skills to deliver a frictionless user experience.",
+    "bio": "I am an open-minded and dedicated creative with a passion for building and problem-solving. Growing up, I always enjoyed hands-on challenges, whether it was crafting art projects or assembling furniture. This passion naturally led me to coding during college, where I discovered a new and exciting way to create. After college, I deepened my skills by joining the Pursuit Fellowship program, where I gained invaluable experience collaborating with a diverse and talented team. Together, we tackled complex challenges and built impactful applications, solidifying my love for team-oriented development. Now, as a Software Engineer with 2 years of professional experience, I specialize in creating scalable, user-focused web applications using technologies like React, PostgreSQL, and Firebase. I’m excited to bring my creativity, problem-solving skills, and dedication to a team where I can continue to grow and contribute to meaningful projects.",
     "contactmessage": "Feel free to reach out to me for any opportunities!",
     "email": "Brandonb0206@gmail.com",
     "phone": "646-620-5446",
     "address": {
-      "city": "Brooklyn",
+      "city": "New York",
       "state": "NY",
       "zip": "11236"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://docs.google.com/document/d/1EvUs9ow1A41_XWvYTNPpOhYFh262gukD/edit?usp=drive_link",
+    "website": "https://brandonbrown.netlify.app/",
+    "resumedownload": "https://docs.google.com/document/d/1YudeHKWXl4E5OJw-nc_3DiANhTrwRdXe_WfC20I8wxY/export?format=pdf",
     "social": [
       {
         "name": "linkedin",
@@ -32,10 +32,16 @@
     "skillmessage": "Here are technologies that I know and use to build projects",
     "education": [
       {
+        "school": "Pursuit Fellowship",
+        "degree": "Full Stack Software Engineering",
+        "graduated": "October 2019 - Present",
+        "description": "Relevant Coursework: JavaScript, TypeScript, HTML, CSS/SCSS, React, Redux, PostgreSQL, Test-Driven Development, Deployment, Express.js, Node.js, APIs, Axios, CORS, Git, Trello, Figma, Gemini AI"
+      },
+      {
         "school": "SUNY Buffalo State College",
         "degree": "Computer Information Systems",
         "graduated": "August 2015 - July 2018",
-        "description": ""
+        "description": "Relevant Coursework: Computer Fundamentals (CIS 101), Information Process I (CIS 151), Information Process II (CIS 251), Programming Internet Environment I (CIS 375), Computer Organization (CIS 315),  Algorithms and Programming (CIS 190)"
       },
       {
         "school": "Harlem Village Academy High",
@@ -46,28 +52,22 @@
     ],
     "work": [
       {
-        "company": "View The Space",
-        "title": "Software Engineer",
-        "years": "June 2021 - February 2023",
-        "description": "Lead the integration of a new font interface into the marketplace application. Worked with software development and testing team members to design and develop robust solutions to meet client requirements for functionality, scalability, and performance. Updated old code bases to modern development standards, improving functionality. Integrated third-party tools and components into applications. Tested methodology with writing and execution of test plans, debugging and testing scripts and tools."
+        "company": "Trinity School NYC",
+        "title": "Help Desk Analyst I",
+        "years": "January 2024 - April 2024",
+        "description": "Delivered technical support for over 50+ desktops, laptops, printers, and mobile devices, ensuring minimal downtime for users. Diagnosed and resolved complex technical issues related to hardware, software, network systems, and implemented permanent solutions. Conduct regular audits of the client’s digital technology devices and equipment to ensure they are up to date and functioning properly. Re-imaged an average of 20 devices per week, improving system performance and user experience. Managed inventory for all on-site equipment and performed basic maintenance tasks, such as replacing printer ink and light bulbs, ensuring operational readiness."
       },
       {
-        "company": "Pursuit",
-        "title": "Full Stack Web Developer",
-        "years": "October 2019 - May 2021",
-        "description": "Enrolled in intensive 1-year, Google-funded software engineering fellowship with a 9% acceptance rate. Used JavaScript, SQL and HTML to develop app-solutions. Reviewed code, debugged problems, and corrected issues."
+        "company": "View The Space",
+        "title": "Software Engineer",
+        "years": "June 2021 - March 2023",
+        "description": "Lead the integration of a new font interface into the marketplace application. Modernized outdated codebases, reducing application errors and improving system performance. Designed APIs and integrated third-party services, improving application scalability and expanding functionality for key stakeholders. Built and optimized high-performing software solutions, reducing application load times by 40% and enhancing overall user satisfaction. Tested methodology with writing and execution of test plans, debugging and testing scripts and tools. Collaborated with cross-functional teams of developers, engineering managers, and designers to develop scalable software solutions that increased client satisfaction by 20%."
       },
       {
         "company": "Zara",
         "title": "Visual Merchandiser",
         "years": "September 2018 - October 2019",
-        "description": "Recommend, selected, and helped locate or obtain merchandise based on customer needs and desires. Answered customer's questions, and provided information on procedures or policies. Assisted with duties in other areas of the store, such as monitoring fitting rooms, or handled cash and credit transactions. Trained more than 10+ newly hired associates. Set up displays of merchandise on walls, collets, or tables to attract customers and promote sales."
-      },
-      {
-        "company": "AT&T",
-        "title": "Technical Support Specialist",
-        "years": "February 2017 - September 2018",
-        "description": "Assisted customers in identifying issues and explained solutions to restore service and functionality. Resolved a diverse range of technical issues across multiple systems and applications for customers and end-users across various time zones. Documented support interactions for future reference. Explained technical information in clear terms to promote better understanding for non-technical users."
+        "description": "Recommend, selected, and helped locate or obtain merchandise based on customer needs and desires. Provided exceptional customer service, assisting 30+ customers daily and resolving inquiries to maximize satisfaction. Streamlined fitting room operations and assisted in cash and credit transactions, ensuring smooth daily operations. Trained more than 10+ newly hired associates. Set up displays of merchandise on walls, collets, or tables to attract customers and promote sales."
       }
     ],
     "skills": []
