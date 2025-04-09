@@ -4,7 +4,7 @@
     "occupation": "Full Stack Web Developer",
     "description": "I'm passionate about web design, music and gaming. I welcome teamwork and am open to collaborating with other developers on projects. Please feel free to contact me about any project collaborations or job opportunities",
     "image": "profilepic.jpg",
-    "bio": "I am an open-minded and dedicated creative with a passion for building and problem-solving. Growing up, I always enjoyed hands-on challenges, whether it was crafting art projects or assembling furniture. This passion naturally led me to coding during college, where I discovered a new and exciting way to create. After college, I deepened my skills by joining the Pursuit Fellowship program, where I gained invaluable experience collaborating with a diverse and talented team. Together, we tackled complex challenges and built impactful applications, solidifying my love for team-oriented development. Now, as a Software Engineer with 2 years of professional experience, I specialize in creating scalable, user-focused web applications using technologies like React, PostgreSQL, and Firebase. I’m excited to bring my creativity, problem-solving skills, and dedication to a team where I can continue to grow and contribute to meaningful projects.",
+    "bio": "I am an open-minded and dedicated creative with a passion for building and problem-solving. Growing up, I always enjoyed hands-on challenges, whether it was crafting art projects or assembling furniture. This passion naturally led me to coding during college, where I discovered a new and exciting way to create. After college, I deepened my skills by joining the Pursuit Fellowship program, where I gained invaluable experience collaborating with a diverse and talented team. Together, we tackled complex challenges and built impactful applications, solidifying my love for team-oriented development. Now, as a Software Engineer with 2 years of professional experience, I specialize in creating scalable, user-focused web applications using technologies like React, Next.js, and MongoDB. I’m excited to bring my creativity, problem-solving skills, and dedication to a team where I can continue to grow and contribute to meaningful projects.",
     "contactmessage": "Feel free to reach out to me for any opportunities!",
     "email": "Brandonb0206@gmail.com",
     "phone": "646-620-5446",
@@ -42,12 +42,6 @@
         "degree": "Computer Information Systems",
         "graduated": "August 2015 - July 2018",
         "description": "Relevant Coursework: Computer Fundamentals (CIS 101), Information Process I (CIS 151), Information Process II (CIS 251), Programming Internet Environment I (CIS 375), Computer Organization (CIS 315),  Algorithms and Programming (CIS 190)"
-      },
-      {
-        "school": "Harlem Village Academy High",
-        "degree": "High School Diploma",
-        "graduated": "September 2011 - June 2015",
-        "description": ""
       }
     ],
     "work": [
@@ -82,17 +76,17 @@
         "ghUrl": "https://github.com/Brandonob/Tinni"
       },
       {
-        "title": "Flashbook",
-        "category": "A remake of the well known social media website, Facebook. ",
+        "title": "Inventory Tracker (e-commerce site)",
+        "category": "An inventory tracker for cash businesses",
         "image": "flashbookImg.png",
         "liveUrl": "https://flashbook-app.netlify.app/",
-        "ghUrl": "https://github.com/Brandonob/Flashbook"
+        "ghUrl": "https://github.com/Brandonob/Inventory-Tracker"
       },
       {
-        "title": "Soothe",
-        "category": "A website that displays the weather and an alarm feature, providing users a soother way to start their mornings.",
+        "title": "AI Resume Generator",
+        "category": "An AI resume generator that uses Gemini AI to generate a resume based on the user's input",
         "image": "logoSoothe.png",
-        "ghUrl": "https://github.com/Brandonob/Soothe-App"
+        "ghUrl": "https://github.com/Brandonob/resume-cover-letter-generator"
       },
       {
         "title": "Calculator App",

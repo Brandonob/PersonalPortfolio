@@ -14,7 +14,7 @@ import rubyIcon from '../Components/skillimages/ruby.png';
 import tailwindIcon from '../Components/skillimages/tailwind.png';
 import typescriptIcon from '../Components/skillimages/typescript.png';
 import dockerIcon from '../Components/skillimages/docker.png';
-
+import mongodbIcon from '../Components/skillimages/mongo-db.png';
 class Resume extends Component {
   render() {
     if (this.props.data) {
@@ -39,7 +39,7 @@ class Resume extends Component {
               {work.title}
               <span>&bull;</span> <em className='date'>{work.years}</em>
             </p>
-            <p>{work.description}</p>
+            <p className='work-description'>{work.description}</p>
           </div>
         );
       });
@@ -65,7 +65,7 @@ class Resume extends Component {
             </h1>
           </div>
 
-          <div className='nine columns main-col'>
+          <div className='nine columns main-col' style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
             <p>{skillmessage}</p>
 
             <div className='skillsImgs'>
@@ -188,6 +188,14 @@ class Resume extends Component {
                   style={{ width: '125px', height: '125px' }}
                 />
                 <h1>Docker</h1>
+              </div>
+              <div>
+                <img
+                  alt=''
+                  src={mongodbIcon}
+                  style={{ width: '125px', height: '125px' }}
+                />
+                <h1>MongoDB</h1>
               </div>
             </div>
           </div>
